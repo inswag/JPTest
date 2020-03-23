@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BasicDetailViewController.swift
 //  JPTest
 //
 //  Created by Insu Park on 2020/03/23.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BasicDetailViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 
