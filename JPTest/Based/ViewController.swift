@@ -34,6 +34,9 @@ class ViewController: UIViewController, UIProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUIComponents()
+        setupUILayout()
+        setupImplementation()
     }
     
     // MARK:- UI Methods

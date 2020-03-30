@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListJobPostingCell" id="KGk-i7-Jjw" customClass="ListJobPostingTableViewCell" customModule="JPTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_logo" translatesAutoresizingMaskIntoConstraints="NO" id="aWV-3x-X1V">
+                        <rect key="frame" x="16" y="16" width="90" height="90"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="VLs-iZ-zyz"/>
+                            <constraint firstAttribute="width" constant="90" id="pRK-jb-sv1"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kBB-Nh-tTv">
+                        <rect key="frame" x="122" y="16" width="237" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company_name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9h1-LH-Y6w">
+                                <rect key="frame" x="0.0" y="0.0" width="121" height="24.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9Y-2U-2VL">
+                                <rect key="frame" x="0.0" y="32.5" width="36.5" height="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efz-bY-TIJ">
+                                <rect key="frame" x="0.0" y="65.5" width="69" height="24.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="eCc-zx-yYI"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qje-K0-hGL">
+                        <rect key="frame" x="16" y="122" width="90" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qje-K0-hGL" secondAttribute="bottom" constant="16" id="1yu-bO-ZZW"/>
+                    <constraint firstItem="Qje-K0-hGL" firstAttribute="trailing" secondItem="aWV-3x-X1V" secondAttribute="trailing" id="EZe-v9-ie1"/>
+                    <constraint firstItem="kBB-Nh-tTv" firstAttribute="leading" secondItem="aWV-3x-X1V" secondAttribute="trailing" constant="16" id="ISG-QT-iBf"/>
+                    <constraint firstItem="aWV-3x-X1V" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Kxd-Af-XwJ"/>
+                    <constraint firstItem="aWV-3x-X1V" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="bnM-Rf-nXK"/>
+                    <constraint firstItem="Qje-K0-hGL" firstAttribute="top" secondItem="aWV-3x-X1V" secondAttribute="bottom" constant="16" id="lOI-94-hX9"/>
+                    <constraint firstItem="kBB-Nh-tTv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="md9-F6-kl9"/>
+                    <constraint firstItem="Qje-K0-hGL" firstAttribute="leading" secondItem="aWV-3x-X1V" secondAttribute="leading" id="pmJ-qQ-yUE"/>
+                    <constraint firstAttribute="trailing" secondItem="kBB-Nh-tTv" secondAttribute="trailing" constant="16" id="quY-PC-UgU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="companyName" destination="9h1-LH-Y6w" id="I5P-In-Jky"/>
+                <outlet property="logo" destination="aWV-3x-X1V" id="Ap6-PU-vDl"/>
+                <outlet property="message" destination="efz-bY-TIJ" id="EPe-zh-AO9"/>
+                <outlet property="reviewAvgCache" destination="Qje-K0-hGL" id="qVs-To-lWS"/>
+                <outlet property="title" destination="K9Y-2U-2VL" id="MoU-9t-05a"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="154"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_logo" width="100" height="100"/>
+    </resources>
+</document>

@@ -9,13 +9,49 @@
 /* Begin PBXBuildFile section */
 		A9947D9804456C54A25419A6 /* Pods_JPTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B256671810686B471F7E8E1 /* Pods_JPTest.framework */; };
 		E60FCE652428A82A00A8A941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FCE642428A82A00A8A941 /* AppDelegate.swift */; };
-		E60FCE692428A82A00A8A941 /* BasicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FCE682428A82A00A8A941 /* BasicListViewController.swift */; };
-		E60FCE6C2428A82A00A8A941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60FCE6A2428A82A00A8A941 /* Main.storyboard */; };
+		E60FCE692428A82A00A8A941 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FCE682428A82A00A8A941 /* ListViewController.swift */; };
 		E60FCE6E2428A82C00A8A941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60FCE6D2428A82C00A8A941 /* Assets.xcassets */; };
 		E60FCE712428A82C00A8A941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60FCE6F2428A82C00A8A941 /* LaunchScreen.storyboard */; };
+		E638725D2431889E005AFE52 /* ListJobPostingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638725B2431889E005AFE52 /* ListJobPostingTableViewCell.swift */; };
+		E638725E2431889E005AFE52 /* ListJobPostingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E638725C2431889E005AFE52 /* ListJobPostingTableViewCell.xib */; };
+		E676A766242A394B003AA7B6 /* ListViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E676A765242A394B003AA7B6 /* ListViewControllerViewModel.swift */; };
+		E69D0BF0242ECEE7000C91BB /* JobPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BEF242ECEE7000C91BB /* JobPlanet.swift */; };
+		E69D0BF3242EFA88000C91BB /* JobPlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BF2242EFA88000C91BB /* JobPlanetService.swift */; };
+		E69D0BF6242F2D65000C91BB /* ListCompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BF5242F2D65000C91BB /* ListCompanyCell.swift */; };
+		E69D0BF8242F2DCA000C91BB /* ListCompanyCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BF7242F2DCA000C91BB /* ListCompanyCellViewModel.swift */; };
+		E69D0BFA242F37C3000C91BB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BF9242F37C3000C91BB /* TableViewCell.swift */; };
+		E69D0BFC242F4882000C91BB /* ListHorizonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BFB242F4882000C91BB /* ListHorizonCell.swift */; };
+		E69D0BFE242F888D000C91BB /* ListHorizonNestedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BFD242F888D000C91BB /* ListHorizonNestedCell.swift */; };
+		E69D0C00242F88FE000C91BB /* ListHorizonCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0BFF242F88FE000C91BB /* ListHorizonCellViewModel.swift */; };
+		E69D0C02242F89FC000C91BB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D0C01242F89FC000C91BB /* CollectionViewCell.swift */; };
+		E6BB4EF724319140002D89EF /* ListSalaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB4EF524319140002D89EF /* ListSalaryTableViewCell.swift */; };
+		E6BB4EF824319140002D89EF /* ListSalaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4EF624319140002D89EF /* ListSalaryTableViewCell.xib */; };
+		E6BB4EFB2431A399002D89EF /* ListInterviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB4EF92431A399002D89EF /* ListInterviewTableViewCell.swift */; };
+		E6BB4EFC2431A399002D89EF /* ListInterviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4EFA2431A399002D89EF /* ListInterviewTableViewCell.xib */; };
+		E6BB4EFF2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB4EFD2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.swift */; };
+		E6BB4F002431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4EFE2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.xib */; };
+		E6C8C631243048EC00BE1F59 /* ListHorizonNestedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C630243048EC00BE1F59 /* ListHorizonNestedViewModel.swift */; };
+		E6C8C633243049C700BE1F59 /* ListJobPostingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C632243049C700BE1F59 /* ListJobPostingCell.swift */; };
+		E6C8C63524305A6F00BE1F59 /* ListReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C63424305A6F00BE1F59 /* ListReviewCell.swift */; };
+		E6C8C63724305FBF00BE1F59 /* ListReviewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C63624305FBF00BE1F59 /* ListReviewCellViewModel.swift */; };
+		E6C8C63A2430683B00BE1F59 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6392430683B00BE1F59 /* Tools.swift */; };
+		E6C8C63C2430684F00BE1F59 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C63B2430684F00BE1F59 /* Font.swift */; };
+		E6C8C63E24307C3C00BE1F59 /* ListSalaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C63D24307C3C00BE1F59 /* ListSalaryCell.swift */; };
+		E6C8C64024307F6500BE1F59 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C63F24307F6500BE1F59 /* Color.swift */; };
+		E6C8C6422430858000BE1F59 /* ListSalaryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6412430858000BE1F59 /* ListSalaryCellViewModel.swift */; };
+		E6C8C6442430A97D00BE1F59 /* ListInterviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6432430A97D00BE1F59 /* ListInterviewCell.swift */; };
+		E6C8C6462430A98A00BE1F59 /* ListInterviewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6452430A98A00BE1F59 /* ListInterviewCellViewModel.swift */; };
+		E6C8C6482430DF1D00BE1F59 /* ListJobPostingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6472430DF1D00BE1F59 /* ListJobPostingCellViewModel.swift */; };
+		E6C8C64C2430E9F100BE1F59 /* HorizonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C64B2430E9F100BE1F59 /* HorizonDetailViewController.swift */; };
+		E6C8C64E2430EA0B00BE1F59 /* JobPostingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C64D2430EA0B00BE1F59 /* JobPostingDetailViewController.swift */; };
+		E6C8C6502430EA1B00BE1F59 /* ReviewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C64F2430EA1B00BE1F59 /* ReviewDetailViewController.swift */; };
+		E6C8C6522430EA3A00BE1F59 /* SalaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6512430EA3A00BE1F59 /* SalaryDetailViewController.swift */; };
+		E6C8C6542430EA4800BE1F59 /* InterviewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6532430EA4800BE1F59 /* InterviewDetailViewController.swift */; };
+		E6C8C6572430F29200BE1F59 /* ListCompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8C6552430F29200BE1F59 /* ListCompanyTableViewCell.swift */; };
+		E6C8C6582430F29200BE1F59 /* ListCompanyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C8C6562430F29200BE1F59 /* ListCompanyTableViewCell.xib */; };
 		E6D8D3542428A9E3008FB28D /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8D3532428A9E3008FB28D /* Application.swift */; };
 		E6D8D3562428A9F8008FB28D /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8D3552428A9F8008FB28D /* Navigator.swift */; };
-		E6D8D3582428AB9A008FB28D /* BasicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8D3572428AB9A008FB28D /* BasicDetailViewController.swift */; };
+		E6D8D3582428AB9A008FB28D /* CompanyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8D3572428AB9A008FB28D /* CompanyDetailViewController.swift */; };
 		E6D8D35B2428AC28008FB28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8D35A2428AC28008FB28D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,14 +61,50 @@
 		E3553A88F5E8225466328098 /* Pods-JPTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPTest.debug.xcconfig"; path = "Target Support Files/Pods-JPTest/Pods-JPTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E60FCE612428A82A00A8A941 /* JPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60FCE642428A82A00A8A941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E60FCE682428A82A00A8A941 /* BasicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicListViewController.swift; sourceTree = "<group>"; };
-		E60FCE6B2428A82A00A8A941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E60FCE682428A82A00A8A941 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		E60FCE6D2428A82C00A8A941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E60FCE702428A82C00A8A941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60FCE722428A82C00A8A941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E638725B2431889E005AFE52 /* ListJobPostingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListJobPostingTableViewCell.swift; sourceTree = "<group>"; };
+		E638725C2431889E005AFE52 /* ListJobPostingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListJobPostingTableViewCell.xib; sourceTree = "<group>"; };
+		E676A765242A394B003AA7B6 /* ListViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewControllerViewModel.swift; sourceTree = "<group>"; };
+		E69D0BEF242ECEE7000C91BB /* JobPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPlanet.swift; sourceTree = "<group>"; };
+		E69D0BF2242EFA88000C91BB /* JobPlanetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPlanetService.swift; sourceTree = "<group>"; };
+		E69D0BF5242F2D65000C91BB /* ListCompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCompanyCell.swift; sourceTree = "<group>"; };
+		E69D0BF7242F2DCA000C91BB /* ListCompanyCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCompanyCellViewModel.swift; sourceTree = "<group>"; };
+		E69D0BF9242F37C3000C91BB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E69D0BFB242F4882000C91BB /* ListHorizonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHorizonCell.swift; sourceTree = "<group>"; };
+		E69D0BFD242F888D000C91BB /* ListHorizonNestedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHorizonNestedCell.swift; sourceTree = "<group>"; };
+		E69D0BFF242F88FE000C91BB /* ListHorizonCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHorizonCellViewModel.swift; sourceTree = "<group>"; };
+		E69D0C01242F89FC000C91BB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E6BB4EF524319140002D89EF /* ListSalaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSalaryTableViewCell.swift; sourceTree = "<group>"; };
+		E6BB4EF624319140002D89EF /* ListSalaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListSalaryTableViewCell.xib; sourceTree = "<group>"; };
+		E6BB4EF92431A399002D89EF /* ListInterviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterviewTableViewCell.swift; sourceTree = "<group>"; };
+		E6BB4EFA2431A399002D89EF /* ListInterviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListInterviewTableViewCell.xib; sourceTree = "<group>"; };
+		E6BB4EFD2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHorizonNestedCollectionViewCell.swift; sourceTree = "<group>"; };
+		E6BB4EFE2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListHorizonNestedCollectionViewCell.xib; sourceTree = "<group>"; };
+		E6C8C630243048EC00BE1F59 /* ListHorizonNestedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHorizonNestedViewModel.swift; sourceTree = "<group>"; };
+		E6C8C632243049C700BE1F59 /* ListJobPostingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListJobPostingCell.swift; sourceTree = "<group>"; };
+		E6C8C63424305A6F00BE1F59 /* ListReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListReviewCell.swift; sourceTree = "<group>"; };
+		E6C8C63624305FBF00BE1F59 /* ListReviewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListReviewCellViewModel.swift; sourceTree = "<group>"; };
+		E6C8C6392430683B00BE1F59 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		E6C8C63B2430684F00BE1F59 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		E6C8C63D24307C3C00BE1F59 /* ListSalaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSalaryCell.swift; sourceTree = "<group>"; };
+		E6C8C63F24307F6500BE1F59 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E6C8C6412430858000BE1F59 /* ListSalaryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSalaryCellViewModel.swift; sourceTree = "<group>"; };
+		E6C8C6432430A97D00BE1F59 /* ListInterviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterviewCell.swift; sourceTree = "<group>"; };
+		E6C8C6452430A98A00BE1F59 /* ListInterviewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterviewCellViewModel.swift; sourceTree = "<group>"; };
+		E6C8C6472430DF1D00BE1F59 /* ListJobPostingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListJobPostingCellViewModel.swift; sourceTree = "<group>"; };
+		E6C8C64B2430E9F100BE1F59 /* HorizonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonDetailViewController.swift; sourceTree = "<group>"; };
+		E6C8C64D2430EA0B00BE1F59 /* JobPostingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostingDetailViewController.swift; sourceTree = "<group>"; };
+		E6C8C64F2430EA1B00BE1F59 /* ReviewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailViewController.swift; sourceTree = "<group>"; };
+		E6C8C6512430EA3A00BE1F59 /* SalaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryDetailViewController.swift; sourceTree = "<group>"; };
+		E6C8C6532430EA4800BE1F59 /* InterviewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewDetailViewController.swift; sourceTree = "<group>"; };
+		E6C8C6552430F29200BE1F59 /* ListCompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCompanyTableViewCell.swift; sourceTree = "<group>"; };
+		E6C8C6562430F29200BE1F59 /* ListCompanyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCompanyTableViewCell.xib; sourceTree = "<group>"; };
 		E6D8D3532428A9E3008FB28D /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		E6D8D3552428A9F8008FB28D /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		E6D8D3572428AB9A008FB28D /* BasicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailViewController.swift; sourceTree = "<group>"; };
+		E6D8D3572428AB9A008FB28D /* CompanyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailViewController.swift; sourceTree = "<group>"; };
 		E6D8D35A2428AC28008FB28D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,15 +158,106 @@
 		E60FCE632428A82A00A8A941 /* JPTest */ = {
 			isa = PBXGroup;
 			children = (
+				E60FCE722428A82C00A8A941 /* Info.plist */,
+				E6E9FA2D2431F1420002C291 /* Resource */,
+				E6C8C6382430682A00BE1F59 /* Tools */,
+				E69D0BF1242EFA74000C91BB /* Network */,
+				E69D0BEE242ECE63000C91BB /* Model */,
 				E6D8D3522428A9CC008FB28D /* Core */,
 				E6D8D3592428AC16008FB28D /* Based */,
-				E6D8D35C2428E112008FB28D /* Controllers */,
-				E60FCE6A2428A82A00A8A941 /* Main.storyboard */,
-				E60FCE6D2428A82C00A8A941 /* Assets.xcassets */,
-				E60FCE6F2428A82C00A8A941 /* LaunchScreen.storyboard */,
-				E60FCE722428A82C00A8A941 /* Info.plist */,
+				E6D8D35C2428E112008FB28D /* Presentation */,
 			);
 			path = JPTest;
+			sourceTree = "<group>";
+		};
+		E638725A24318184005AFE52 /* Temporary(Code based) */ = {
+			isa = PBXGroup;
+			children = (
+				E69D0BF5242F2D65000C91BB /* ListCompanyCell.swift */,
+				E6C8C632243049C700BE1F59 /* ListJobPostingCell.swift */,
+				E6C8C63D24307C3C00BE1F59 /* ListSalaryCell.swift */,
+				E6C8C6432430A97D00BE1F59 /* ListInterviewCell.swift */,
+				E69D0BFD242F888D000C91BB /* ListHorizonNestedCell.swift */,
+			);
+			path = "Temporary(Code based)";
+			sourceTree = "<group>";
+		};
+		E67AB8B02431B4A900BDD22D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E60FCE682428A82A00A8A941 /* ListViewController.swift */,
+				E676A765242A394B003AA7B6 /* ListViewControllerViewModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E69D0BEE242ECE63000C91BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E69D0BEF242ECEE7000C91BB /* JobPlanet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E69D0BF1242EFA74000C91BB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E69D0BF2242EFA88000C91BB /* JobPlanetService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E69D0BF4242F2D2E000C91BB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E6C8C6552430F29200BE1F59 /* ListCompanyTableViewCell.swift */,
+				E6C8C6562430F29200BE1F59 /* ListCompanyTableViewCell.xib */,
+				E69D0BF7242F2DCA000C91BB /* ListCompanyCellViewModel.swift */,
+				E638725B2431889E005AFE52 /* ListJobPostingTableViewCell.swift */,
+				E638725C2431889E005AFE52 /* ListJobPostingTableViewCell.xib */,
+				E6C8C6472430DF1D00BE1F59 /* ListJobPostingCellViewModel.swift */,
+				E6C8C63424305A6F00BE1F59 /* ListReviewCell.swift */,
+				E6C8C63624305FBF00BE1F59 /* ListReviewCellViewModel.swift */,
+				E6BB4EF524319140002D89EF /* ListSalaryTableViewCell.swift */,
+				E6BB4EF624319140002D89EF /* ListSalaryTableViewCell.xib */,
+				E6C8C6412430858000BE1F59 /* ListSalaryCellViewModel.swift */,
+				E6BB4EF92431A399002D89EF /* ListInterviewTableViewCell.swift */,
+				E6BB4EFA2431A399002D89EF /* ListInterviewTableViewCell.xib */,
+				E6C8C6452430A98A00BE1F59 /* ListInterviewCellViewModel.swift */,
+				E69D0BFB242F4882000C91BB /* ListHorizonCell.swift */,
+				E69D0BFF242F88FE000C91BB /* ListHorizonCellViewModel.swift */,
+				E6C8C630243048EC00BE1F59 /* ListHorizonNestedViewModel.swift */,
+				E6BB4EFD2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.swift */,
+				E6BB4EFE2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E6C8C6382430682A00BE1F59 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E6C8C6392430683B00BE1F59 /* Tools.swift */,
+				E6C8C63B2430684F00BE1F59 /* Font.swift */,
+				E6C8C63F24307F6500BE1F59 /* Color.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E6C8C6492430E90500BE1F59 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E69D0BF4242F2D2E000C91BB /* Cell */,
+				E67AB8B02431B4A900BDD22D /* Controller */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		E6C8C64A2430E90F00BE1F59 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9FA2C2431F12F0002C291 /* Controller */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		E6D8D3522428A9CC008FB28D /* Core */ = {
@@ -111,17 +274,42 @@
 			isa = PBXGroup;
 			children = (
 				E6D8D35A2428AC28008FB28D /* ViewController.swift */,
+				E69D0BF9242F37C3000C91BB /* TableViewCell.swift */,
+				E69D0C01242F89FC000C91BB /* CollectionViewCell.swift */,
 			);
 			path = Based;
 			sourceTree = "<group>";
 		};
-		E6D8D35C2428E112008FB28D /* Controllers */ = {
+		E6D8D35C2428E112008FB28D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				E60FCE682428A82A00A8A941 /* BasicListViewController.swift */,
-				E6D8D3572428AB9A008FB28D /* BasicDetailViewController.swift */,
+				E6C8C6492430E90500BE1F59 /* List */,
+				E6C8C64A2430E90F00BE1F59 /* Detail */,
 			);
-			path = Controllers;
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E6E9FA2C2431F12F0002C291 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6D8D3572428AB9A008FB28D /* CompanyDetailViewController.swift */,
+				E6C8C64B2430E9F100BE1F59 /* HorizonDetailViewController.swift */,
+				E6C8C64D2430EA0B00BE1F59 /* JobPostingDetailViewController.swift */,
+				E6C8C64F2430EA1B00BE1F59 /* ReviewDetailViewController.swift */,
+				E6C8C6512430EA3A00BE1F59 /* SalaryDetailViewController.swift */,
+				E6C8C6532430EA4800BE1F59 /* InterviewDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6E9FA2D2431F1420002C291 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E638725A24318184005AFE52 /* Temporary(Code based) */,
+				E60FCE6D2428A82C00A8A941 /* Assets.xcassets */,
+				E60FCE6F2428A82C00A8A941 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E60FCE712428A82C00A8A941 /* LaunchScreen.storyboard in Resources */,
+				E6BB4EFC2431A399002D89EF /* ListInterviewTableViewCell.xib in Resources */,
+				E6BB4EF824319140002D89EF /* ListSalaryTableViewCell.xib in Resources */,
 				E60FCE6E2428A82C00A8A941 /* Assets.xcassets in Resources */,
-				E60FCE6C2428A82A00A8A941 /* Main.storyboard in Resources */,
+				E6C8C6582430F29200BE1F59 /* ListCompanyTableViewCell.xib in Resources */,
+				E638725E2431889E005AFE52 /* ListJobPostingTableViewCell.xib in Resources */,
+				E6BB4F002431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,26 +431,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69D0BFA242F37C3000C91BB /* TableViewCell.swift in Sources */,
 				E6D8D35B2428AC28008FB28D /* ViewController.swift in Sources */,
-				E6D8D3582428AB9A008FB28D /* BasicDetailViewController.swift in Sources */,
+				E69D0C02242F89FC000C91BB /* CollectionViewCell.swift in Sources */,
+				E6C8C64E2430EA0B00BE1F59 /* JobPostingDetailViewController.swift in Sources */,
+				E6BB4EFB2431A399002D89EF /* ListInterviewTableViewCell.swift in Sources */,
+				E6C8C63C2430684F00BE1F59 /* Font.swift in Sources */,
+				E6C8C6542430EA4800BE1F59 /* InterviewDetailViewController.swift in Sources */,
+				E6C8C6572430F29200BE1F59 /* ListCompanyTableViewCell.swift in Sources */,
+				E676A766242A394B003AA7B6 /* ListViewControllerViewModel.swift in Sources */,
+				E6C8C6522430EA3A00BE1F59 /* SalaryDetailViewController.swift in Sources */,
+				E6D8D3582428AB9A008FB28D /* CompanyDetailViewController.swift in Sources */,
+				E638725D2431889E005AFE52 /* ListJobPostingTableViewCell.swift in Sources */,
+				E6C8C633243049C700BE1F59 /* ListJobPostingCell.swift in Sources */,
+				E69D0BF3242EFA88000C91BB /* JobPlanetService.swift in Sources */,
+				E6C8C6462430A98A00BE1F59 /* ListInterviewCellViewModel.swift in Sources */,
+				E69D0BFC242F4882000C91BB /* ListHorizonCell.swift in Sources */,
+				E69D0BF6242F2D65000C91BB /* ListCompanyCell.swift in Sources */,
+				E6C8C63A2430683B00BE1F59 /* Tools.swift in Sources */,
+				E6C8C6422430858000BE1F59 /* ListSalaryCellViewModel.swift in Sources */,
+				E6C8C6482430DF1D00BE1F59 /* ListJobPostingCellViewModel.swift in Sources */,
+				E69D0BF8242F2DCA000C91BB /* ListCompanyCellViewModel.swift in Sources */,
 				E6D8D3542428A9E3008FB28D /* Application.swift in Sources */,
+				E69D0C00242F88FE000C91BB /* ListHorizonCellViewModel.swift in Sources */,
+				E6C8C63E24307C3C00BE1F59 /* ListSalaryCell.swift in Sources */,
+				E6BB4EFF2431B0D9002D89EF /* ListHorizonNestedCollectionViewCell.swift in Sources */,
+				E6C8C64C2430E9F100BE1F59 /* HorizonDetailViewController.swift in Sources */,
+				E6C8C631243048EC00BE1F59 /* ListHorizonNestedViewModel.swift in Sources */,
+				E6C8C6442430A97D00BE1F59 /* ListInterviewCell.swift in Sources */,
 				E6D8D3562428A9F8008FB28D /* Navigator.swift in Sources */,
-				E60FCE692428A82A00A8A941 /* BasicListViewController.swift in Sources */,
+				E6C8C64024307F6500BE1F59 /* Color.swift in Sources */,
+				E69D0BFE242F888D000C91BB /* ListHorizonNestedCell.swift in Sources */,
+				E60FCE692428A82A00A8A941 /* ListViewController.swift in Sources */,
+				E6C8C63724305FBF00BE1F59 /* ListReviewCellViewModel.swift in Sources */,
+				E6C8C63524305A6F00BE1F59 /* ListReviewCell.swift in Sources */,
 				E60FCE652428A82A00A8A941 /* AppDelegate.swift in Sources */,
+				E6C8C6502430EA1B00BE1F59 /* ReviewDetailViewController.swift in Sources */,
+				E6BB4EF724319140002D89EF /* ListSalaryTableViewCell.swift in Sources */,
+				E69D0BF0242ECEE7000C91BB /* JobPlanet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E60FCE6A2428A82A00A8A941 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E60FCE6B2428A82A00A8A941 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E60FCE6F2428A82C00A8A941 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
